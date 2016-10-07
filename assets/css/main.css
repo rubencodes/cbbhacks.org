@@ -1,0 +1,415 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: rgb(105,173,239);
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.navbar-inverse {
+	background-color: rgb(105,173,239);
+	border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: rgb(105,173,239);
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+}
+
+
+#footer {
+	background-color: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: rgb(105,173,239);
+}
+
+.logo-bg {
+	position: absolute;
+	background: rgb(151, 194, 235);
+	height: 300px;
+	width: 300px;
+	top: 0px;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50%;
+	margin: 0 auto;
+	
+	animation: pulse 1s infinite alternate;
+	-webkit-animation: pulse 1s infinite alternate;
+}
+
+
+@-webkit-keyframes pulse {
+	0% { 
+		-webkit-transform: scale(1); 
+	}
+	100% { 
+		-webkit-transform: scale(1.2); 
+	}
+}
+@keyframes pulse {
+	0% { 
+		transform: scale(1); 
+	}
+	100% { 
+		transform: scale(1.5); 
+	}
+}
+
+
+.iframe {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.btn-apply {
+	background-color: rgb(105,173,239);
+	color: #fff;
+	width: 250px;
+	height: 80px;
+	line-height: 1.7;
+	font-size: 36px;
+}
+
+.light>h1,.light>p {
+	color: white;
+}
+
+.grid-bg {
+	background-image: url(/assets/img/grid.png);
+	background-attachment:fixed;
+	height: 300px;
+	padding: 0px;
+}
+
+.overlay-blue {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(105,173,239, 0.7);
+	
+	margin-left: -10%;
+}
+
+.candid-bg {
+	background-image:url(/assets/img/2015_1.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	width:100%;
+	padding:0 10%;
+	position: relative;
+}
+
+.candid-bg-2 {
+	background-image: url(/assets/img/2015_2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	width:100%;
+	padding:0 10%;
+	position: relative;
+}
+
+
+.map-bg {
+	background-image:url(/assets/img/map.png);
+	background-size:cover;
+	background-attachment:fixed;
+	width:100%;
+	padding:0 10%;
+	
+	min-height: 300px;
+}
+
+.hamster-bg {
+	background-image:url(/assets/img/hamster.png);
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	width:100%;
+	padding:0 20%;
+}
+
+.icon {
+	font-size: 100px;
+}
+
+.sponsor {
+	margin: 20px;
+	max-width: 300px;
+}
+
+.animated-clock {
+  background: url(http://www.galleryhomestore.com/images/store/Clock.gif) no-repeat center;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.main-logo {
+	height: 300px;
+	max-width: 500px;
+	background-image: url(/assets/img/cbb7.png);
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 100;
+}
+
+#canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#gear-bg, #gear-mg, #gear-fg {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#gear-bg {
+  background-image: url("../img/gear.png");
+}
+
+#gear-mg {
+  background-image: url("../img/shield.png");
+
+  animation-direction: reverse;
+}
+
+#gear-fg {
+  background-image: url("../img/text.png");
+  
+  animation-play-state: paused;
+}
+
+#gear-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	
+	top: 0;
+	left: 0;
+	z-index: 100000000;
+    background: url(https://drscdn.500px.org/photo/91069863/m%3D2048/c1ffbabe1654efc6f913571d2b1a8c3f);
+    background-size: cover;
+    background-position: center center;
+}
+
+@keyframes rotate {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+	from {-moz-transform: rotate(0deg);}
+	to {-moz-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes rotate {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);}
+}
+
+.btn:hover, .btn:focus {
+	color: #fff !important;
+}

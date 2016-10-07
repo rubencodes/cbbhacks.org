@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="/assets/img/cbb4.png">
+
+  <title>CBBhacks</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Ionicons template -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div id="gear-container">
+    <canvas id="canvas"></canvas>
+    <div id="gear-bg"></div>
+    <div id="gear-mg"></div>
+    <div id="gear-fg"></div>
+  </div>
+  <div id="ww">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <h1>36 Hours. 1 Goal. January 29-31.</h1>
+          <p>Join your fellow students Spring of 2016 for the second annual Colby-Bates-Bowdoin hackathon, hosted at Bowdoin College. You have 36 hours to build something, anything, with your fellow entrepreneurs, artists, developers, and other students, culminating in a presentation to a panel of VCs, founders, and CEOs. Join us and be a part of the largest student hackathon in Maine! Applications are now open.</p><p><b>Don't think you're a hacker? No problem!</b> Most of our participants are first-time hackers, so you'll be among great company learning to make apps and websites for the first time.</p>
+          <a id="RSVP" class="btn btn-lg btn-apply" href="https://haygrr.typeform.com/to/FVICdH">Apply Now</a><br><br><button id="FAQ-button" class="btn btn-lg btn-apply">FAQ</button>
+          <div id="FAQ" style="display:none"><br><br>
+            <div class="row">
+              <div class="col-sm-4 text-left">
+                <h3>What is a hackathon?</h3>
+                <p>A hackathon is the greatest thing to happen to education since the Internet. Hacking isn't breaking into anything—it's breaking your ideas out of the confines of your mind, collaborating with your peers to build them and sharing that product with the world.</p>
+              </div>
+              <div class="col-sm-4 text-left">
+                <h3>Do I need to code?</h3>
+                <p>No, you absolutely do not need to code! If you have an idea, are looking for an idea, want to help design a product, or help market a product, please come! You might meet a new friend, or perhaps even a new cofounder.</p>
+              </div>
+              <div class="col-sm-4 text-left">
+                <h3>Do I need a team?</h3>
+                <p>Nope—Come to the event, and you'll be sure to find a team here in need of your skillset! Students from Bowdoin, Bates, and Colby will be present, so you'll be sure to find someone working on a neat idea! Or, go at it solo!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 text-left">
+                <h3>How do I get there?</h3>
+                <p>We will be providing shuttles from and to Colby and Bates Colleges at the start and end of the event, at no cost to students. But please, let us know you're coming <a href="#RSVP">below</a>!</p>
+              </div>
+              <div class="col-sm-4 text-left">
+                <h3>What should I bring?</h3>
+                <p>Yourself, any tools you need (laptops, drawing pads, etc), comfortable (read: warm) clothes, a sleeping bag if you plan to sleep, and a desire to build something awesome! Food, drinks and snacks will be provided courtesy of our sponsors.</p>
+              </div>
+              <div class="col-sm-4 text-left">
+                <h3>Who will be there?</h3>
+                <p>Students from Bowdoin, Bates, and Colby will make up the majority of our hackers. VCs, entrepreneurs, startup founders, and representatives from tech companies will provide guidance as you work on your products!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 text-left">
+                <h3>What do I win?</h3>
+                <p>To paraphrase Albus Dumbledore, "Eternal Glory. That is what awaits the Student who wins the first ever CBBhacks competition, but to this that student must survive thirty-six hours of hacking. Thirty-six EXTREMELY AWESOME hours."</p>
+              </div>
+              <div class="col-sm-4 text-left">
+                <h3>What are the rules?</h3>
+                <p>CBBhacks in only open to undergrad students. In addition to professional conduct, we expect you to only work on hacks that you start <b>at the hackathon</b> and that use only public APIs available to everyone else. Trust us, we can tell. </p>
+              </div>
+              <div class="col-sm-4 text-left">
+                <h3>How do I sign up?</h3>
+                <p>It's easy! Hit the Apply Now link and fill out some information about yourself to let us know you're interested. We'll get back to you as soon as we can to let you know if you've been accepted and send you further details.</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- /col-lg-8 -->
+      </div><!-- /row -->
+    </div> <!-- /container -->
+  </div><!-- /ww -->
+  <div class="container pt candid-bg">
+    <div class="overlay-blue"></div>
+    <div class="row mt centered">
+      <div class="col-sm-4 centered light">
+        <h1 class="icon ion-ios-people"></h1>
+        <h1>Meet</h1>
+        <p>Students from Colby, Bates, Bowdoin and beyond will be present at this first-of-its-kind event to collaborate with each other, as well as to get advice and expertise from VCs, CEOs & other entrepreneurs.</p>
+      </div>
+      <div class="col-sm-4 centered light">
+        <h1 class="icon ion-lightbulb"></h1>
+        <h1>Learn</h1>
+        <p>Looking for something interesting to work on? Talk to local professors about their research and what they're working on. Speak with representatives from major tech companies about their experiences.</p>
+      </div>
+      <div class="col-sm-4 centered light">
+        <h1 class="icon ion-settings"></h1>
+        <h1>Create</h1>
+        <p>Apply what you have learned in the classroom to collaborate with others and build a marketable product or service in 36 hours. Do it well, and you might just get a prize for it!</p>
+      </div>
+    </div>
+  </div>
+  <div id="ww">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <h1 class="icon ion-pizza"></h1>
+          <h1>Food, Drinks & Snacks Provided</h1>
+          <p>What's a hackathon without brain food? You concentrate on building cool stuff, we'll keep you well fed with a steady stream of food, snacks, and drinks, courtesy of our amazing <a href="#sponsors">sponsors</a>!</p>
+        </div><!-- /col-lg-8 -->
+      </div><!-- /row -->
+    </div> <!-- /container -->
+  </div><!-- /ww -->
+  <div class="container pt candid-bg-2">
+    <div class="overlay-blue"></div>
+    <div class="row mt centered light">
+      <div class="col-sm-12 centered light">
+        <h1 class="icon ion-trophy"></h1>
+        <h1>Win Fabulous Prizes</h1>
+        <p>In addition to a grand prize, we will also be offering over $2000 worth of prizes for various categories, such as "Female Founders", "Hardware Hacks", "Mobile Apps", and "Business Plans". You won't want to miss this great opportunity!</p>
+      </div>
+    </div>
+  </div>
+  <div id="ww">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <h1>Registration is now open!</h1><br><br>
+          <a id="RSVP" class="btn btn-lg btn-apply" href="https://haygrr.typeform.com/to/FVICdH">Apply Now</a><br><br>
+          <h1 id="sponsors">Code of Conduct</h1>
+          <p>We aim to make our event a safe space for anyone who wants to hack. You can find our full Code of Conduct <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a>. TL;DR. Be respectful. Harassment and abuse are never tolerated.</p>
+          <h1 id="sponsors">Sponsors & Helpers</h1>
+          <a href="http://mlh.io"><img class="sponsor" style="max-height: 150px" src="./assets/img/mlh-logo.png"></img></a>
+          <a href="https://www.hubspot.com/"><img class="sponsor" src="http://cdn2.hubspot.net/hub/137828/file-223457316-png/HubSpot_User_Group_Images/HUG_lrg_HS.png"></a><br>
+          <a href="https://www.llbean.com/"><img class="sponsor" src="http://logonoid.com/images/ll-bean-logo.png"></a>
+          <a href="http://microsoft.com"><img class="sponsor" src="http://cdn.arstechnica.net/wp-content/uploads/2012/08/microsoft-metro-tall.png"></img></a>
+          <a href="http://bowdoin.edu"><img class="sponsor" style="padding:10px;background:#000" src="http://www.bowdoin.edu/lib/img/homepage/bowdoin-wordmark-295x60.png"></img></a>
+        </div><!-- /col-lg-8 -->
+      </div><!-- /row -->
+    </div> <!-- /container -->
+  </div><!-- /ww -->
+
+  <!-- +++++ Footer Section +++++ -->
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>Where?</h4>
+          <p>
+            Bowdoin College<br/>
+            3000 College Station<br/>
+            Brunswick, ME 04011<br/>
+          </p>
+        </div><!-- /col-lg-4 -->
+
+        <div class="col-lg-4">
+          <h4>Want to help?</h4>
+          <p>
+            <a href="mailto:contact@cbbhacks.org">Send us an email!</a>
+          </p>
+        </div><!-- /col-lg-4 -->
+
+        <div class="col-lg-4">
+          <h4>Contact Us</h4>
+          <p>
+            <a href="mailto:contact@cbbhacks.org">Email</a><br/>
+            <a href="http://twitter.com/CBBhacks">Twitter</a><br/>
+            <a href="https://www.facebook.com/pages/Bowdoin-ITAC/766404390074997">Facebook</a>
+          </p>
+        </div><!-- /col-lg-4 -->
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">Website by <a href="http://secondhalf.tech/">Second Half Technologies</a></div>
+      </div>
+    </div>
+  </div>
+  <a id="mlh-trust-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:1000000000" href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
+  <script src="assets/js/animations.js"></script>
+  <script>
+  $("#FAQ-button").click(function(){
+    $("#FAQ").slideToggle();
+  });
+  </script>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
