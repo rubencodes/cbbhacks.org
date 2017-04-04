@@ -1,21 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #555;
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #555;
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #333;
+	font-weight: 700;
+	color: #333;
 }
 
 h1 {
@@ -28,50 +28,50 @@ h1 {
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-size: 16px;
 }
 
 .centered {
-    text-align: center;
+	text-align: center;
 }
 
 /* Links */
 a {
-    color: rgb(105,173,239);
-    word-wrap: break-word;
+	color: rgb(105,173,239);
+	word-wrap: break-word;
 
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 
@@ -259,7 +259,7 @@ bt {
 }
 
 .grid-bg {
-	background-image: url(/assets/img/grid.png);
+	background-image: url(../img/grid.png);
 	background-attachment:fixed;
 	height: 300px;
 	padding: 0px;
@@ -275,7 +275,7 @@ bt {
 }
 
 .candid-bg {
-	background-image:url(/assets/img/2015_1.jpg);
+	background-image:url(../img/2015_1.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	width:100%;
@@ -284,7 +284,7 @@ bt {
 }
 
 .candid-bg-2 {
-	background-image: url(/assets/img/2015_2.jpg);
+	background-image: url(../img/2015_2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width:100%;
@@ -294,7 +294,7 @@ bt {
 
 
 .map-bg {
-	background-image:url(/assets/img/map.png);
+	background-image:url(../img/map.png);
 	background-size:cover;
 	background-attachment:fixed;
 	width:100%;
@@ -304,7 +304,7 @@ bt {
 }
 
 .hamster-bg {
-	background-image:url(/assets/img/hamster.png);
+	background-image:url(../img/hamster.png);
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:center center;
@@ -332,7 +332,7 @@ bt {
 .main-logo {
 	height: 300px;
 	max-width: 500px;
-	background-image: url(/assets/img/cbb7.png);
+	background-image: url(../img/cbb7.png);
 	background-size: 100% auto;
 	background-position: center;
 	background-repeat: no-repeat;
